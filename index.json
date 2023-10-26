@@ -1,0 +1,27 @@
+[   {
+        "model": "H&K G36",
+        "caliber": "5.56×45mm NATO",
+        "action": "Gas-operated, rotating bolt",
+        "fire_modes": ["Semi-automatic", "Automatic"],
+        "capacity": "Standard magazines hold 30 rounds",
+        "weight": {
+          "empty": "Approximately 8.60 lbs (3.9 kg)",
+          "loaded": "Varies with magazine and ammunition"
+        },
+        "effective_range": "Up to 800 meters (874 yards)",
+        "max_range": "Approximately 3,000 meters (3,280 yards)"
+      },
+      {
+        "model": "Barrett M82",
+        "caliber": ".50 BMG",
+        "action": "Recoil-operated, semi-automatic",
+        "fire_modes": ["Semi-automatic"],
+        "capacity": "Detachable box magazines, typically 10 rounds",
+        "weight": {
+          "empty": "Approximately 29.7 lbs (13.5 kg)",
+          "loaded": "Varies with magazine and ammunition"
+        },
+        "effective_range": "Up to 1,800 meters (1,969 yards)",
+        "max_range": "Dependent on caliber and ballistic characteristics"
+      }
+]
