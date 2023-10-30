@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        .txt{
+            color: azure;
+        }
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A</title>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 </head>
 <body>
-    <div id="app" class="bg-green-100">
+    <div id="app" >
         <h1>{{say}}</h1>
         <p>{{p}}</p>
+        <div :class="dd">
+            this is another div
+        </div>
 
         <img v-bind:src="loc" width="400" alt="">
     </div>

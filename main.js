@@ -6,7 +6,8 @@ const app = Vue.createApp({
             far i can get with this
             `,
             dd: 'bg-green-100',
-            loc:`assets/ch.jpg`
+            loc:`assets/ch.jpg`,
+            txt:'txt'
         }
     }
 })
